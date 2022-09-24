@@ -1,0 +1,8 @@
+#/bin/bash
+sudo yum install httpd
+sudo start systemctl httpd
+sudo enable httpd
+touch file1 >> welcome
+cp file1 /etc/www/var/html
+
+
